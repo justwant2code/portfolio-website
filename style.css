@@ -1,0 +1,8 @@
+.jumbotron {
+  background: url("/img/dc-bg.png") no-repeat center;
+  padding: 25em 0em;
+}
+
+.display-4 {
+  color: aliceblue;
+}
