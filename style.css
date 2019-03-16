@@ -1,8 +1,12 @@
 .jumbotron {
-  background: url("/img/dc-bg.png") no-repeat center;
-  padding: 25em 0em;
+  background: url("/img/prisma-bg.png") no-repeat center;
+  padding: 15em 0em;
 }
 
 .display-4 {
+  color: aliceblue;
+}
+
+.lead {
   color: aliceblue;
 }
