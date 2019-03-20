@@ -1,12 +1,20 @@
+/* header */
 .jumbotron {
   background: url("/img/prisma-bg.png") no-repeat center;
   padding: 15em 0em;
+  margin: 0;
 }
 
+/* header text */
 .display-4 {
   color: aliceblue;
 }
 
 .lead {
   color: aliceblue;
+}
+/* header text */
+
+#about-section .container {
+  padding: 6em 0em;
 }
