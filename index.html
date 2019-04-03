@@ -4,9 +4,193 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cabin"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Portfolio Website</title>
   </head>
   <body>
-    <h1>Test</h1>
+    <!-- Nav start  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Logo</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="#">Work</a>
+          <a class="nav-item nav-link" href="#">About</a>
+          <a class="nav-item nav-link" href="#">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav end -->
+
+    <!-- Header -->
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Design. Develop. Create.</h1>
+        <p class="lead">
+          Brian Clark | Front-End Web Developer
+        </p>
+        <button type="button" class="btn btn-primary">Resume</button>
+      </div>
+    </div>
+
+    <!-- Header End -->
+
+    <!-- Work Section goes here -->
+
+    <!-- About Section -->
+    <section id="about-section">
+      <div class="container" id="about_me">
+        <h1 class="about_text">About Me</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+          aliquam! Aliquam est repellendus voluptates, fugiat necessitatibus
+          excepturi nihil quis eaque distinctio in, voluptate doloribus delectus
+          dicta impedit et maxime quaerat facere obcaecati non? Placeat debitis
+          incidunt, expedita nostrum quidem praesentium ipsa, odio quasi rerum
+          esse provident ex, voluptatum reprehenderit distinctio!
+        </p>
+      </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container" id="contact_me">
+        <h1 class="contact_text">Contact Me</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia magni
+          recusandae neque explicabo labore expedita fuga possimus officiis
+          provident! Consequuntur, explicabo. Libero explicabo laboriosam
+          facilis qui nisi at ad minima ducimus, nulla quibusdam est ullam
+          eveniet culpa quaerat sint iusto accusantium commodi inventore numquam
+          natus soluta quas totam eius esse?
+        </p>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title icons">
+            <a href="https://www.instagram.com/justwant2code/" target="_blank"
+              ><i class="fab fa-instagram fa-lg"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/justwant2code/" target="_blank"
+              ><i class="fab fa-linkedin-in fa-lg"></i
+            ></a>
+            <a href="https://github.com/justwant2code" target="_blank"
+              ><i class="fab fa-github fa-lg"></i
+            ></a>
+          </h5>
+          <p class="card-text text-center">
+            <i class="far fa-copyright"></i> Brian Clark
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Projects Section -->
+    <!-- <section id="projects-section">
+      <div class="container">
+        <div class="page-header text-center">
+          <h1>Projects</h1>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 text-center">
+              <div class="card" style="width: 18rem;">
+                <img
+                  class="card-img-top"
+                  src="/img/placeholder.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 text-center">
+              <div class="card" style="width: 18rem;">
+                <img
+                  class="card-img-top"
+                  src="img/placeholder.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 text-center">
+              <div class="card" style="width: 18rem;">
+                <img
+                  class="card-img-top"
+                  src="img/placeholder.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Projects Section End -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
