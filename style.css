@@ -1,0 +1,96 @@
+hmtl,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*/////////////////////////////////////////////////*/
+/* navbar */
+/*/////////////////////////////////////////////////*/
+
+.navbar {
+  background-color: #5a5b9f !important;
+}
+
+.navbar-brand,
+a {
+  color: #fff !important;
+}
+
+.nav-item {
+  color: #fff !important;
+}
+
+/*/////////////////////////////////////////////////*/
+/* header */
+/*/////////////////////////////////////////////////*/
+
+.jumbotron {
+  background-color: #5a5b9f;
+  padding: 15em 0em;
+  margin: 0;
+}
+
+/*/////////////////////////////////////////////////*/
+/* header text */
+/*/////////////////////////////////////////////////*/
+
+.display-4 {
+  color: aliceblue;
+  font-family: "Cabin", sans-serif;
+}
+
+.lead {
+  color: aliceblue;
+  font-family: "Cabin", sans-serif;
+}
+/* header text end */
+
+/*/////////////////////////////////////////////////*/
+/* about section */
+/*/////////////////////////////////////////////////*/
+
+#about-section .container {
+  padding: 6em 0em;
+}
+
+.about_text {
+  text-align: center;
+}
+
+/*/////////////////////////////////////////////////*/
+/* Contact Section */
+/*/////////////////////////////////////////////////*/
+.contact_text {
+  text-align: center;
+}
+
+a[href^="mailto"] {
+  color: blue;
+  text-decoration: none;
+}
+
+/* Contact Section End */
+.card-body {
+  background-color: #5a5b9f;
+  color: #fff;
+}
+
+/*/////////////////////////////////////////////////*/
+/* Footer */
+/*/////////////////////////////////////////////////*/
+
+.icons {
+  text-align: center;
+}
+
+.icons a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 60px;
+  padding-right: 95px;
+}
+
+.card-title {
+  padding-bottom: 20px;
+}
