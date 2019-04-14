@@ -21,6 +21,11 @@ a {
   color: #fff !important;
 }
 
+#logo,
+a {
+  font-family: "Rubik", sans-serif;
+}
+
 /*/////////////////////////////////////////////////*/
 /* header */
 /*/////////////////////////////////////////////////*/
@@ -65,15 +70,24 @@ a {
   text-align: center;
 }
 
-a[href^="mailto"] {
-  color: blue;
-  text-decoration: none;
-}
-
 /* Contact Section End */
 .card-body {
   background-color: #5a5b9f;
   color: #fff;
+}
+
+li {
+  list-style-type: none;
+}
+
+#contact-section {
+  text-align: center;
+}
+
+#contact-section,
+ul,
+li {
+  padding: 10px 0;
 }
 
 /*/////////////////////////////////////////////////*/
