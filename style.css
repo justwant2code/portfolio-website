@@ -4,6 +4,7 @@ body {
   padding: 0;
 }
 
+<<<<<<< HEAD
 /*/////////////////////////////////////////////////*/
 /* navbar */
 /*/////////////////////////////////////////////////*/
@@ -30,15 +31,22 @@ a {
 /* header */
 /*/////////////////////////////////////////////////*/
 
+=======
+/* header */
+>>>>>>> c98becc6daa69c30023f867986f0d963571c8c44
 .jumbotron {
   background-color: #5a5b9f;
   padding: 15em 0em;
   margin: 0;
 }
 
+<<<<<<< HEAD
 /*/////////////////////////////////////////////////*/
 /* header text */
 /*/////////////////////////////////////////////////*/
+=======
+/* header text */
+>>>>>>> c98becc6daa69c30023f867986f0d963571c8c44
 
 .display-4 {
   color: aliceblue;
@@ -49,12 +57,18 @@ a {
   color: aliceblue;
   font-family: "Cabin", sans-serif;
 }
+<<<<<<< HEAD
 /* header text end */
 
 /*/////////////////////////////////////////////////*/
 /* about section */
 /*/////////////////////////////////////////////////*/
 
+=======
+/* header text */
+
+/* about section */
+>>>>>>> c98becc6daa69c30023f867986f0d963571c8c44
 #about-section .container {
   padding: 6em 0em;
 }
@@ -63,9 +77,15 @@ a {
   text-align: center;
 }
 
+<<<<<<< HEAD
 /*/////////////////////////////////////////////////*/
 /* Contact Section */
 /*/////////////////////////////////////////////////*/
+=======
+/* about Section End */
+
+/* Contact Section */
+>>>>>>> c98becc6daa69c30023f867986f0d963571c8c44
 .contact_text {
   text-align: center;
 }
@@ -74,6 +94,7 @@ a {
 .card-body {
   background-color: #5a5b9f;
   color: #fff;
+<<<<<<< HEAD
 }
 
 li {
@@ -94,6 +115,12 @@ li {
 /* Footer */
 /*/////////////////////////////////////////////////*/
 
+=======
+  font-family: "Cabin", sans-serif;
+}
+
+/* Footer */
+>>>>>>> c98becc6daa69c30023f867986f0d963571c8c44
 .icons {
   text-align: center;
 }
@@ -102,9 +129,12 @@ li {
   text-decoration: none;
   color: #fff;
   margin-left: 60px;
+<<<<<<< HEAD
   padding-right: 95px;
 }
 
 .card-title {
   padding-bottom: 20px;
+=======
+>>>>>>> c98becc6daa69c30023f867986f0d963571c8c44
 }
