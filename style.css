@@ -1,4 +1,4 @@
-hmtl,
+html,
 body {
   margin: 0;
   padding: 0;
@@ -24,13 +24,28 @@ body {
 }
 /* header text */
 
+/* Nav */
+.navbar-brand {
+  font-family: "Rubik", sans-serif;
+}
+
 /* about section */
-#about-section .container {
-  padding: 6em 0em;
+
+#about-section,
+h1 {
+  text-align: center;
+  padding: 2em 0;
 }
 
 .about_text {
   text-align: center;
+  padding-top: 25em;
+}
+
+img {
+  padding-bottom: 4em;
+  text-align: center;
+  padding-right: 4em;
 }
 
 /* about Section End */
@@ -38,6 +53,13 @@ body {
 /* Contact Section */
 .contact_text {
   text-align: center;
+}
+
+#contact-section {
+  text-align: center;
+}
+li {
+  list-style: none;
 }
 
 /* Contact Section End */
@@ -55,7 +77,7 @@ body {
 .icons a {
   text-decoration: none;
   color: #fff;
-  margin-left: 60px;
+  margin-left: 30px;
 }
 
 .card-title {
